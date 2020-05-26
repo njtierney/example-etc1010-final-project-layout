@@ -1,0 +1,23 @@
+---
+output: html_document
+---
+
+```{r libraries}
+library(tidyverse)
+```
+
+```{r}
+# 
+```
+
+
+The data was scraped using the R code in 01-scrape-data.R. This code used
+... to scrape the data, and may take some time to run. To speed up computation, we have saved the scraped data into the data folder.
+
+```{r}
+# your scraped data read in here - it could be an rds, or csv, or more!
+# scraped_data <- read_excel("data/scraped-data.rds")
+# scraped_data <- read_excel("data/scraped-data.csv")
+```
+
+

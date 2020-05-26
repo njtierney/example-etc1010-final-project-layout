@@ -1,0 +1,61 @@
+---
+date: `r Sys.Date()`
+output: html_document
+---
+
+# Loading your packages
+
+```{r}
+# packages to scrape data
+# e.g.,
+# library(tidyverse)
+# library(polite)
+# library(rvest)
+# library(janitor)
+# library(janitor)
+# # and more!
+```
+
+# scraping / cleaning the data
+
+Write a description of how your scraped / cleaned your data
+
+```{r}
+# Code to scrape data
+# ...
+# ...
+# ...
+# check_url <- bow(url) 
+# is the URL safe to use?
+# check_url
+# html <- scrape(check_url)
+# tidy_html <- html %>% html_table()
+# scraped_data <- tidy_html %>% clean_names()
+```
+
+# Writing the data
+
+```{r}
+# your scraped data is written here - it could be an xlsx file, rds, or csv, or more!
+# write_rds(scraped_data, "data/scraped-data.rds")
+# If you want to compress the data to make it small, use this:
+# write_rds(scraped_data, "data/scraped-data.rds", compress = "xz")
+# write_csv(scraped_data, "data/scraped-data.csv")
+```
+
+# Reproducibility
+
+<details>
+
+```{r}
+## datetime
+Sys.time() 
+
+## repository
+git2r::repository()
+
+## session info
+sessionInfo()
+```
+
+</details>
